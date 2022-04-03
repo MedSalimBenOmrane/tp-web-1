@@ -18,7 +18,7 @@ if (num.value == alea) {
 else if (num.value != alea) {
     document.f.rep.value = coup;
 }
-else if (coup <1 ) {
+ if (coup <1 ) {
     test = confirm("T'as perdu !\n tu doit trouver : " + alea + "\nNouvelle partie ?");
 }
 
